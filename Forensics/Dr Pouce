@@ -1,0 +1,8 @@
+After downloading and unzipping the file, you are presented with a pdf and a JPEG. You need to find city where Dr. Pouse is being kept and who kidnapped him.
+
+To Find the city where Dr. Pouce is you will need to look in the metadata of the JPEG file (EXIF data) where you will find latitude and longitude. 
+You input those results into a online mapping service (https://www.gps-coordinates.net) and you will see the location is, "Halifax, NS, Canada".
+
+To find out who the evil man is, you can open the pdf using Adobe Acrobat Reader DC, right click inside the document which brings up a menu and then click on the tab that says, "Document Properties..." which will show who the author of the file is (Steve Finger).
+
+The FLAG is: HalifaxSteveFinger
