@@ -1,0 +1,11 @@
+To complete this challenge you need to find the FLAG inside a pcap file.
+
+I used wireshark for this challenge.
+
+After loading the pcap file in wireshark you can see that there are numerous HTTP GET requests. From there you can do "Export Objects HTTP" by going to FILE--->Export Objects--->HTTP in the top menu bar.
+A window will pop up with of the HTTP exports and you can see that there are requests to chucknorrisfacts.fr and Google
+Analytics, but there is one that sticks out from the rest which is, 'Hostname: 10.0.85.10'. If you open that packet on wireshark and go to "Line-based text data" layer and expand it you will see the FLAG.
+
+Another way to view the suspicious packet when found, is to use the "Follow HTTP Stream" which will reveal the FLAG. To do this your right click on the packet and go to Follow--->HTTP Stream.
+
+FLAG-GehFMsqCeNvof5szVpB2Dmjx
